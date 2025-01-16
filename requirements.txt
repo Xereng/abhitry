@@ -41,3 +41,4 @@ tzdata==2024.2
 urllib3==2.3.0
 watchdog==6.0.0
 tensorflow>=2.16.0,<2.18.0
+gunicorn
