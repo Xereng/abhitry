@@ -7,7 +7,8 @@ import io
 import os  # Fix: Import os for setting port
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
+CORS(app, origin=["http://localhost:3000", "http://127.0.0.1:3000"])
 # Load your trained model
 MODEL_PATH = "fish_disease_classifier.h5"
 try:
